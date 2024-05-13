@@ -21,7 +21,14 @@ const createPassword = () => {
 
 }
 
+// const copyPassword = () => {
+//   passwordBox.select();
+//   document.execCommand('copy');
+// }
+
 const copyPassword = () => {
+  const passwordBox = document.getElementById('password'); 
   passwordBox.select();
   document.execCommand('copy');
-}
+};
+
